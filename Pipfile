@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+spleeter = "*"
+pyogg = "*"
+gentle = {editable = true, ref = "bfbc668d77d5da28f08f67cfcaa4600e38fd11c6", git = "https://github.com/lowerquality/gentle.git"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
